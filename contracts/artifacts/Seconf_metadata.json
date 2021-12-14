@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "updateName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SecondContract.sol": "Seconf"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SecondContract.sol": {
+			"keccak256": "0xe6fe9e3850ef70b1722223a1e22b68adeebb8517765c58761fc9846f8befafa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b49b780c8cfd390f4855e3c986509142b8ba33dae3906fc3bbda75dedc812e1d",
+				"dweb:/ipfs/QmTnUT9ZX3bb3HdbXDC4MxBzW46c3iBdUc7mJqgnmEQcQs"
+			]
+		}
+	},
+	"version": 1
+}
