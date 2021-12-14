@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SecondContract.sol": "SecondContract"
+			"contracts/SecondContract.sol": "Ty"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/SecondContract.sol": {
-			"keccak256": "0x91874991b6948f454ad6e6ff95c2881836dd1c77a10d1e9ca92366659e3e8a75",
+			"keccak256": "0x94db4e6c6eff1a0e221592180841e59ff6be5e572d4df40865184931ed3f5b33",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df3b69ef6898eafc99b02cfa4555aad2a93661988f0c130343593eb51b5f2482",
-				"dweb:/ipfs/QmPHeSg5U1qdyPyCMBpUk57xrGhjCN4v5MofsyeRJZ1bEy"
+				"bzz-raw://b0486bcb6705da32955e99ef6d33b0f652150e28a98df9c6337869245eb510b8",
+				"dweb:/ipfs/QmdBMXVAZH3zTcQ7MRr4hheQ8se8sorniQdec2D7vC3Xu1"
 			]
 		}
 	},
