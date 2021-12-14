@@ -1,0 +1,15 @@
+bool: The possible values are constants true and false.
+
+Operators:
+
+! (not operstor)
+
+&& (“and”)
+
+|| (“or”)
+
+== (equality)
+
+!= (not equal to)
+
+=============================================================
