@@ -19,8 +19,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setName",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newName",
+						"type": "string"
+					}
+				],
+				"name": "updateName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -54,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/MyContract.sol": {
-			"keccak256": "0x24845a713a010ce088d101d4c31fc6b1f3fcf3c1eab05b0dc48fa75cd8796119",
+			"keccak256": "0x4e112dd0a052850e3b9d40aceccddfa55a6fbd47296c2e5f5a034905db0fcfe4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9211c5336ac7c6d9933765464dae027bc68c2a81b2e89c981b8efce01b6634f8",
-				"dweb:/ipfs/QmQyUe7LWorfFNhhehKXmK37XAdAM6PWVGUEep3a46aW3y"
+				"bzz-raw://c2b44350ba38816d7e3358606d9895f114379f496062f7e2248e8687edec8df6",
+				"dweb:/ipfs/QmWHe6wrA25d757YEJHGMXg9GoGhcrJWKW5sio4NNZv8wP"
 			]
 		}
 	},
