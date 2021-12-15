@@ -7,9 +7,9 @@ contract MyFirstContract {
 
     function setValue(unit val) public {
         storageVariable = val;
-    };
+    }
 
-    function getValue() public view return (unit) {
-        return storageVariable;
-    };
-};
+    function getValue() public view return () {
+        storageVariable;
+    }
+}

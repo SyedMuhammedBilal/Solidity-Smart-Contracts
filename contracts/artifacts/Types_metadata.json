@@ -4,7 +4,73 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint16",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint32",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/Types.sol": {
-			"keccak256": "0x7a6ca75c79eeb5ab210623e5f316d4c38838e8f537ace85b650e87ae79a176d9",
+			"keccak256": "0x2c40286c289f35e1694f6695dd25cf96de82fabcdb28b5c596cdca171a0ed2e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://078893636e3e0b13753208438590a77410d26624f823526507d68f1dd538b396",
-				"dweb:/ipfs/QmemWnNk1CchPRnbohGL8cW2jauygdfrq3nXGCNPKw9h6m"
+				"bzz-raw://9d1874ed0cae9a2642a4b0d8dcbf36d328c60cca8a11aaff205af4ae7c783818",
+				"dweb:/ipfs/QmTesiMf7E7n4dW4jHXC181ZR2ur3zRV7oUzq8himgVUrT"
 			]
 		}
 	},
