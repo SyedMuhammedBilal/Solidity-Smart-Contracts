@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cotract.sol": "MyFirstContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cotract.sol": {
+			"keccak256": "0xcb9db0e12c9121fbe8ae624b93ec30a3a7069cd68c9a2585b98ad9d86c1eef7f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://64b9da3fa63eda299125a8f63c83fa3620216f812737ac0399a7a521a937eaa3",
+				"dweb:/ipfs/QmdKcngE3EtoQ2jpL91QP6SmEJsFyH2Vh1TmXnsZTHXRNk"
+			]
+		}
+	},
+	"version": 1
+}

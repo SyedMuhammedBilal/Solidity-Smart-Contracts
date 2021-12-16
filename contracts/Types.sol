@@ -16,6 +16,15 @@ contract Types {
     int16 internal myInt16 = -23626;
     int8 internal myInt8 = -128; // from 0 - 255 (half of 255)
 
-    address public myAddress = 0x842a9aA3d0a5b1867288eCaA81eFE5926b818AE9;
-    address private myContractAddress = 0xcD6a42782d230D7c13A74ddec5dD140e55499Df9;
+    // converting a type to a different type
+    int256 myNewInt = int256(myInt8);
+
+    // payable stands for (accepting token or coin)
+    // address stands for (wallet address)
+    // this stand for (this contract address)
+    address payable public myAddress = payable(0x842a9aA3d0a5b1867288eCaA81eFE5926b818AE9);
+    address private myContractAddress = address(this);
+
+    uint256 balance = myContractAddress.balance;
+
 }

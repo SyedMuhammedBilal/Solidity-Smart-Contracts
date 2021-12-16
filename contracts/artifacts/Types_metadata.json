@@ -10,7 +10,7 @@
 				"name": "myAddress",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"contracts/Types.sol": {
-			"keccak256": "0x2c40286c289f35e1694f6695dd25cf96de82fabcdb28b5c596cdca171a0ed2e2",
+			"keccak256": "0x70490ca41b922418fa6657762d1c8007966a5705a45571045c42c48e137d1742",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9d1874ed0cae9a2642a4b0d8dcbf36d328c60cca8a11aaff205af4ae7c783818",
-				"dweb:/ipfs/QmTesiMf7E7n4dW4jHXC181ZR2ur3zRV7oUzq8himgVUrT"
+				"bzz-raw://acbb6ec1657fd12ccb0d137679387f033e30c2e041cf67f350edadabdbd3cff3",
+				"dweb:/ipfs/Qmdn4gzJTcmNS3o8bMqhXPTetZCev29yyngaWA7ikCstzS"
 			]
 		}
 	},

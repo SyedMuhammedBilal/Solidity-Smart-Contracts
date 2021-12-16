@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractPauser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Variables.sol": "Variables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Variables.sol": {
+			"keccak256": "0x8aebef77795e1289779def4afcd5aec38671d5bd38dd3e1e22454ea1b7cbb223",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://71578e9f77e4ccac5256d9cc2390f0a31ae324a513bd2f8a90c6b05895deda98",
+				"dweb:/ipfs/QmSfMeRcijJYGwMKmq8fsK2VjZbdDQrktQoZcvNN9t6zwK"
+			]
+		}
+	},
+	"version": 1
+}

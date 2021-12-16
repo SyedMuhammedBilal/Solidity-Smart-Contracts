@@ -3,13 +3,13 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract MyFirstContract {
-    unit storageVariable;
+    uint storageVariable;
 
-    function setValue(unit val) public {
+    function setValue(uint val) public {
         storageVariable = val;
     }
 
-    function getValue() public view return () {
+    function getValue() public view {
         storageVariable;
     }
 }
