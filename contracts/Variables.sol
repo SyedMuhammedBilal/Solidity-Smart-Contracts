@@ -4,9 +4,15 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Variables {
     uint256 number = 20; // state variable
-    bool paused = false;
+    bool private paused = false;
+    uint256 public blockTime = block.timestamp;
 
-    function contractPauser() public {
-        uint256 localNumber = 10;
+    function contractPauser() public view {
+        // uint256 localNumber = 10;
     }
+}
+
+contract NewContract is Variables { 
+    bool public paused = true;
+    uint256 public time = blockTime;
 }
