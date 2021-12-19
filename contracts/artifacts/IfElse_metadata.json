@@ -57,6 +57,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -87,11 +100,11 @@
 	},
 	"sources": {
 		"contracts/IfElse.sol": {
-			"keccak256": "0x4552745cc021dd23c13aa3007949a3d0807c43afce95d7e0d84feb5c717cb5c1",
+			"keccak256": "0xcc6a2848b6d60de369250f0ec0969b6183941760f90a66d6495662635996adef",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a7d0b5b49d4adf8a6be524b2ffd8e3da8ddc28b4b58e523b708dd777c6b2b230",
-				"dweb:/ipfs/QmZsGTt8RE6XQ5ompgwUdPwG7SsorEaNYMZbbiGwGoUrfD"
+				"bzz-raw://a3ff55e0e11d30d79a2603e420c86370d02fcccfc7892ca526ac1eb9a65f3017",
+				"dweb:/ipfs/QmavB8cYT5P27dLk4DC9n2kGgF6svMJRX8xYgsFofizj2D"
 			]
 		}
 	},
