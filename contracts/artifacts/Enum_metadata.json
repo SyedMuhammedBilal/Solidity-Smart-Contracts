@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "rarity",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Rarity",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rarityBased",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums.sol": {
+			"keccak256": "0x710ae9aebad0539c8c9fb2158f69f81c7e2a6b39b754ab5219e2abfb4904d862",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c176018c568b6965636ceaac6492b900bf8ace08cf09c18351b103e9e9beddc2",
+				"dweb:/ipfs/QmPA5vCoxJvcxr9rHKuK6KbphfnXbbT3y11dLX3zcWQqiw"
+			]
+		}
+	},
+	"version": 1
+}
