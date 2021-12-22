@@ -65,6 +65,24 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "upateNFTStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -95,11 +113,11 @@
 	},
 	"sources": {
 		"contracts/Struct.sol": {
-			"keccak256": "0xa590de3578396d1f0dfec6f5780e0818894b7250b04cfbba758a94cc0b7119f8",
+			"keccak256": "0x72806df035f79e549154bb3a30a9848b318cb044d70bab7fe1aad96c4a8b5e22",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1b19c24da47071035f7bd9789cd0fb20245641c2128872993a85431ed9907fc1",
-				"dweb:/ipfs/QmS9oJNfypx7JfMwBiMqJMnvbvWD9DNUKRXQWn5N9mXoCy"
+				"bzz-raw://d2c5a3968847a02e667a5d2a20fe2ff0a6136d300eee3f3281f29746271ca356",
+				"dweb:/ipfs/QmdENa5PDq5dgzFTtLJxmAAE3ZKiB13YAkKRTqmYksAiAk"
 			]
 		}
 	},
