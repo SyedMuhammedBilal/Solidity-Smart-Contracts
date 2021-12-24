@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_numA",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_numB",
+						"type": "uint32"
+					}
+				],
+				"name": "pureFunction",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_numA",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_numB",
+						"type": "uint32"
+					}
+				],
+				"name": "pureRevertFunction",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ErrorsAndChecks.sol": "ErrorsAndChecks"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ErrorsAndChecks.sol": {
+			"keccak256": "0x2b143b1f1811c6ab226623975a611174cadd1536224b22a64d1daa8a7bbffd75",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c6889846ba394717b8cc3f64e3afe2b4806f452e0c9b72faf83ad944d6b9cd9b",
+				"dweb:/ipfs/QmTCeucTT4bsHmXy6eQwhEZmotBYeq5rRYxPL7KuQnTDjc"
+			]
+		}
+	},
+	"version": 1
+}
