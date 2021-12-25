@@ -7,7 +7,8 @@ contract Inheritance_A {
 }
 
 contract Inheritance_B is Inheritance_A {
-    function showName() public view returns (string memory) {
+    // (VIRTUAL) is a built-in function to overide a function in other contract
+    function showName() public view virtual returns (string memory) {
         return name;
     }
 }
@@ -15,5 +16,10 @@ contract Inheritance_B is Inheritance_A {
 // we can inherit one and more contract, 
 // but it hsould be order like A, B, C not like B, A, C 
 contract Inheritance_C is Inheritance_A, Inheritance_B {
-     
+    // (OVERRIDE) is used to override a function, we are using this function
+    // from B_Contract and making a change on it, (VIRTUAL) allow us to 
+    // do changes on it
+     function showName() public view virtual override returns (string memory) {
+        return "SOLANA";
+    }
 }

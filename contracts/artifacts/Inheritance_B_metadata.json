@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Inheritance.sol": {
-			"keccak256": "0xc67b9aecd6b5ecda9d291e9337cd9facf2c26be5a1ee63f69c38bdfc62f4878a",
+			"keccak256": "0xd0f6589b89571f8eb4854627a94881ae20fb3055affaa92a67ac377662fe0fea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://620f16a49f340aaa775292de2a933a7e8ed45201ce4841968c890174854217ca",
-				"dweb:/ipfs/QmdNWpYVsXEMg8w8rnrefEfGzCqosJh2vqHstLfrgVkmeW"
+				"bzz-raw://0fe85abdada58ee24904116c0306ce4b5061f1dcef0495b4ea04ead704ada271",
+				"dweb:/ipfs/QmZyUdHFDZEfJbVWy1SwJSJFCTdDV9x4CV2F6VPzfPRNS6"
 			]
 		}
 	},
