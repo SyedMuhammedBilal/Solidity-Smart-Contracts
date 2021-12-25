@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"name": "CreatedNFT",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dna",
+						"type": "uint256"
+					}
+				],
+				"name": "creatNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Events.sol": "Events"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Events.sol": {
+			"keccak256": "0x7718c966abf64b4fea5329b563ddfbd6f9d71c8b90a1215e5fdc7418dad1c47d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b36e740a353f06ae69054b389c7c04333e20495e0f020b5fe96fa26f3dd3f615",
+				"dweb:/ipfs/QmT2QaSaaMGxn47sJsTRxrvgkfhJ8zzgexd51HujLS71hX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "name",
+				"name": "showName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -43,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constructor.sol": "Constructor"
+			"contracts/Inheritance.sol": "Inheritance_B"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Constructor.sol": {
-			"keccak256": "0x6218a47a9227831365ad62a2eb132b594c61cc2cdd6bec676bc0f3ea414d5346",
+		"contracts/Inheritance.sol": {
+			"keccak256": "0xc67b9aecd6b5ecda9d291e9337cd9facf2c26be5a1ee63f69c38bdfc62f4878a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c077fb06654e9993af4293cd7b69e94525887eda94a193b48eb6cbee2638b3cd",
-				"dweb:/ipfs/QmeeGbpsvM8wzjnCj4sjSAtBwwxXaZixfbUFszqCBSpzec"
+				"bzz-raw://620f16a49f340aaa775292de2a933a7e8ed45201ce4841968c890174854217ca",
+				"dweb:/ipfs/QmdNWpYVsXEMg8w8rnrefEfGzCqosJh2vqHstLfrgVkmeW"
 			]
 		}
 	},

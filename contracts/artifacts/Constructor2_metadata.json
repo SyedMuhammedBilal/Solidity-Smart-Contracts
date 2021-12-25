@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Constructor.sol": "Constructor"
+			"contracts/Constructor.sol": "Constructor2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
