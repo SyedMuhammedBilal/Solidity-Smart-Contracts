@@ -7,15 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "deleteStatus",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "rarity",
+				"name": "getStatus",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Rarity",
+						"internalType": "enum Enum.Status",
 						"name": "",
 						"type": "uint8"
 					}
@@ -24,10 +26,36 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "rarityBased",
+				"inputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setStatus",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shipped",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Enum.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -44,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enums.sol": "Enum"
+			"contracts/Enum.sol": "Enum"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -58,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Enums.sol": {
-			"keccak256": "0x710ae9aebad0539c8c9fb2158f69f81c7e2a6b39b754ab5219e2abfb4904d862",
+		"contracts/Enum.sol": {
+			"keccak256": "0xe0c3242c235d91a0039eb100447a2939d73ee7e62052fde7ce2d048260586cb2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c176018c568b6965636ceaac6492b900bf8ace08cf09c18351b103e9e9beddc2",
-				"dweb:/ipfs/QmPA5vCoxJvcxr9rHKuK6KbphfnXbbT3y11dLX3zcWQqiw"
+				"bzz-raw://5f63cda845ccd43bb4dc19aa799c57e7e599da6b2b6266320246d2f79e3da962",
+				"dweb:/ipfs/QmeTpoFNawiktKd8zfJweksVQNo6scyiUg2WU3NKCXGsam"
 			]
 		}
 	},

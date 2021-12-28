@@ -1,0 +1,199 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "_check",
+						"type": "bool"
+					}
+				],
+				"name": "addTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_key",
+						"type": "uint32"
+					}
+				],
+				"name": "deleteTodo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "todoName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todoMapping",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "todoName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_todoName",
+						"type": "string"
+					}
+				],
+				"name": "updateTodo",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_key",
+						"type": "uint256"
+					}
+				],
+				"name": "viewTodo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "todoName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "id",
+								"type": "uint32"
+							},
+							{
+								"internalType": "bool",
+								"name": "isCompleted",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct TodoList.TodoSchema",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TodoList.sol": "TodoList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TodoList.sol": {
+			"keccak256": "0x2d7e94bbdd86fef6351cf292342d56435a67f7e277aaa3c64628630b551a7451",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5e7edf7a6c25e81f6ed2357c0138d9dc730d40b75b4ae78a20621af0e36e661b",
+				"dweb:/ipfs/Qmat7PVkooNivEJsKsJcW8cQNSrqEY8FzpQAYUB5JDycvo"
+			]
+		}
+	},
+	"version": 1
+}
