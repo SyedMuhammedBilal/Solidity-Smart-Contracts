@@ -27,9 +27,10 @@ contract TodoList {
         return todo[_key];
     }
 
-    function updateTodo(uint _key, string memory _todoName) view external {
-        TodoSchema memory _todo = todo[_key];
-        _todo.todoName = _todoName;
+    function updateTodo(uint _key, string memory _todoName) external {
+        todo[_key].todoName = _todoName;
+        TodoSchema storage _todo = todo[_key];
+        _todo.todoName = _todoName; 
     }
 
     function deleteTodo(uint32 _key) external {

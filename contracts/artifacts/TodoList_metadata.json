@@ -119,7 +119,7 @@
 				],
 				"name": "updateTodo",
 				"outputs": [],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -187,11 +187,11 @@
 	},
 	"sources": {
 		"contracts/TodoList.sol": {
-			"keccak256": "0x2d7e94bbdd86fef6351cf292342d56435a67f7e277aaa3c64628630b551a7451",
+			"keccak256": "0x60f9c56b5c4f8b16eb199922d0fc4cecdefda2af8ae380e7de4d65a4a03c2b88",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5e7edf7a6c25e81f6ed2357c0138d9dc730d40b75b4ae78a20621af0e36e661b",
-				"dweb:/ipfs/Qmat7PVkooNivEJsKsJcW8cQNSrqEY8FzpQAYUB5JDycvo"
+				"bzz-raw://4a16b258a3116a84b4d7978dcbde1cb001a1d3b98a7e25c6b8607df2875a8912",
+				"dweb:/ipfs/QmPTyLkWcgshvZzX8VrojA2hMNWdECRJYarAiEYzn46jgF"
 			]
 		}
 	},
